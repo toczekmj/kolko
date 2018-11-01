@@ -1,0 +1,26 @@
+Sadzenie bulw
+Limit pamięci: 32 MB
+Farmer Bulwęsadź musi obsadzić swoje pola bulwami.
+
+Każde pole ma określoną bulwonasyconość wyrażającą się liczbą całkowitą . Jeżeli zasadzi się na tym polu  bulw, gdzie , to plon wyniesie . Jeżeli zasadzi się na tym polu więcej niż  bulw, to plonu nie będzie ze względu na wzajemne zagłuszanie.
+
+Farmer nie za dobrze radzi sobie z matematyką, a ma ograniczony zasób bulw. Powiedz mu, jak ma zasadzić swoje bulwy, żeby osiągnąć maksymalny plon. Zakładamy, że farmer nie musi zasadzać wszystkich bulw.
+
+Wejście
+Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą  (), oznaczającą liczbę pól Bulwęsadzia.
+
+Następny wiersz zawiera  liczb całkowitych   (), gdzie  oznacza bulwonasyconość -tego pola. Ostatni wiersz zawiera jedną liczbę całkowitą  (), oznaczającą liczbę bulw, które posiada Bulwęsadź.
+
+Wyjście
+W jedynym wierszu wyjścia powinna znaleźć się jedna liczba całkowita, oznaczająca maksymalny łączny plon Bulwysadzia.
+
+Przykład:
+Dla danych wejściowych:
+1
+9
+3
+
+poprawną odpowiedzią jest:
+9
+
+Autor zadania: Joachim Jelisiejew.
