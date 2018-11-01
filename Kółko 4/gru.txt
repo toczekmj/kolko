@@ -1,0 +1,20 @@
+Grusze i jabłonie
+Limit pamięci: 32 MB
+W pewnym sadzie rosną grusze i jabłonie, wszystkie w linii prostej, oddalone co 1 metr od siebie. Właściciel sadu, Pan Wiktor, chciałby znaleźć gruszę najbardziej oddaloną od jabłoni. Pomóż mu znaleźć te drzewa i podaj odległość pomiędzy nimi.
+
+Wejście
+Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą  (), oznaczającą liczbę drzew w sadzie. Kolejny wiersz zawiera ciąg  liczb całkowitych  , gdzie  oznacza rodzaj -tego drzewa: 0 - oznacza gruszę, 1 - oznacza jabłoń. Można założyć, że w sadzie rośnie co najmniej jedna grusza i co najmniej jedna jabłoń.
+
+Wyjście
+Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę całkowitą, równą maksymalnej odległości pomiędzy gruszą a jabłonią.
+
+Przykład:
+
+Dla danych wejściowych:
+5
+0 1 1 0 0
+
+poprawną odpowiedzią jest:
+3
+
+Autor zadania: Jacek Tomasiewicz.
