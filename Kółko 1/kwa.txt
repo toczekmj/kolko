@@ -1,0 +1,29 @@
+Kwadrat od n
+Napisz program wyprowadzający kształt kwadratu zbudowanego z litery K którego bok ma
+długość K liter.
+Wejście
+Jedna liczba 0<n<100 długość boku kwadratu.
+Wyjście
+Kwadrat złożony z liter K o długości n liter.
+
+Przykład:
+
+Wejście
+4
+
+Wyjscie
+KKKK
+KKKK
+KKKK
+KKKK
+
+//////////////
+
+Przykład:
+
+Wejście
+2
+
+Wyjście
+KK
+KK 
