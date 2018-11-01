@@ -1,0 +1,23 @@
+Las
+Limit pamięci: 32 MB
+W Bajtockim lesie każde drzewo jest oznaczone i zapisane w pewnej bazie danych. Niestety niektóre dane uległy zniszczeniu i znamy tylko grubość pnia i rodzaj drzewa. Wiadomo, że porówując dwa drzewa tego samego rodzaju, starszym drzewem będzie zawsze drzewo o grubszym pniu. Możemy założyć, że nie ma dwóch drzew tego samego rodzaju o tej samej grubości pnia. Chcielibyśmy poznać, ilu jest kandydatów na najstarsze drzewo w Bajtockim lesie.
+
+Wejście
+Pierwszy wiersz wejścia zawiera jedną liczbę całkowitą  (), oznaczającą liczbę drzew w Bajtockim lesie. Następnych  wierszy opisuje kolejne drzewa. Każdy wiersz zawiera dwie liczb całkowite  (), oznaczające odpowiednio grubość i rodzaj drzewa.
+
+Wyjście
+Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę całkowitą, równą liczbie kandydatów na najstarsze drzewo Bajtocji.
+
+Przykład:
+
+Dla danych wejściowych:
+4
+3 1
+4 1
+5 2
+2 3
+
+poprawną odpowiedzią jest:
+3
+
+Autor zadania: Jacek Tomasiewicz.
