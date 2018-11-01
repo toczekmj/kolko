@@ -1,0 +1,22 @@
+Piłeczka
+Limit pamięci: 32 MB
+Asia dostała na urodziny magiczną piłeczkę. Piłeczka ta, spadając z pewnej wysokości odbija się na wysokość dwa razy większą. Asia zrzuciła piłeczkę z balkonu z pewnej wysokości . Zastanawia się teraz, po ilu odbiciach piłeczka znajdzie się na wysokości .
+
+Wejście
+W pierwszej linii wejścia znajduje się jedna liczba całkowita  (), oznaczająca liczbę zestawów danych. Dla każdego zestawu danych w nowym wierszu znajdują się dwie liczby całkowite  i  ().
+
+Wyjście
+Dla każdego zestawu danych w  kolejnych wierszach powinna znaleźć się jedna liczba całkowita równa liczbie odbić, po których piłeczka znajdzie się na wysokości .
+
+Przykład
+
+Dla danych wejściowych:
+2
+3 4
+2 6
+
+poprawną odpowiedzią jest:
+1
+2
+
+Autor zadania: Jacek Tomasiewicz.
