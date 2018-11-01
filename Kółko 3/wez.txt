@@ -1,0 +1,28 @@
+Wężyk
+Limit pamięci: 32 MB
+Ulubioną zabawą Stasia jest gra w "wężyka". Polega ona na tym, że najpierw wybiera sobie jedną liczbę całkowitą , a następnie zaczyna na kartce zapisywać kolejne liczby naturalne. Chłopiec zapisuje łącznie  wierszy, w każdym z nich po  liczb.
+
+W pierwszym wierszu Staś wypisuje liczby od 1 do  od lewej do prawej. Drugi wiersz wypełnia jednak od prawej do lewej liczbami od  do . I tak dalej: wiersze o numerach nieparzystych wypełnia od lewej do prawej, a te o numerach parzystych - od prawej do lewej.
+
+Twoim zadaniem jest napisanie programu, który będzie automatycznie grał w "wężyka".
+
+Wejście
+W pierwszym i jedynym wierszu wejścia znajduje się jedna liczba naturalna  ().
+
+Wyjście
+Na wyjście należy wypisać  wierszy, w każdym z nich po  liczb naturalnych. Razem ma zostać wypisanych  liczb: wszystkie liczby naturalne od  do  . W każdym wierszu wypisane liczby powinny być pooddzielane pojedynczymi odstępami.
+
+Przykład:
+
+Dla danych wejściowych:
+6
+
+poprawną odpowiedzią jest:
+1 2 3 4 5 6
+12 11 10 9 8 7
+13 14 15 16 17 18
+24 23 22 21 20 19
+25 26 27 28 29 30
+36 35 34 33 32 31
+
+Autor zadania: Jacek Tomasiewicz (zapożyczenie).
