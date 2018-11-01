@@ -1,0 +1,19 @@
+Liczba
+Limit pamięci: 32 MB
+Mamy daną liczbę całkowitą , dla której chcemy znaleźć dwie wartości: najmniejszą oraz największą liczbę całkowitą, z przedziału od  do , które nie są dzielnikami liczby .
+
+Wejście
+Pierwszy i jedyny wiersz standardowego wejścia zawiera jedną liczbę całkowitą  ().
+
+Wyjście
+Pierwszy wiersz standardowego wyjścia powinien zawierać dwie liczby całkowite, równe odpowiednio najmniejszej oraz największej liczbie nie będącej dzielnikiem .
+
+Przykład:
+
+Dla danych wejściowych:
+5
+
+poprawną odpowiedzią jest:
+2 4
+
+Autor zadania: Jacek Tomasiewicz.
