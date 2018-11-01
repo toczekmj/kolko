@@ -9,14 +9,12 @@ int main()
     int grubosc;
     int rodzaj;
     int ilosc;
-    int wprowadzone = 0;
     cin>>ilosc;
     set<int> rodzaje;
 
     while(cin>>grubosc>>rodzaj)
     {
         rodzaje.insert(rodzaj);
-        wprowadzone++;
     }
     cout<<rodzaje.size();
 }
