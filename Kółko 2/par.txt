@@ -1,0 +1,19 @@
+Patyki
+Limit pamięci: 32 MB
+Bajtuś znalazł w lesie 3 patyki. Teraz chciałby wiedzieć, czy może z nich zbudować trójkąt prostokątny lub równoboczny. Bajtuś nie może łamać patyków, może je wykorzystać tylko w całości.
+
+Wejście
+Pierwszy wiersz wejścia zawiera trzy liczby całkowite  (), oznaczające odpowiednio długości pierwszego, drugiego i trzeciego patyka.
+
+Wyjście
+Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę: 0 - jeśli Bajtuś nie może zbudować, ani trójkąta prostokątnego ani równobocznego, 1 - jeśli Bajtuś może zbudować tylko trójkąt prostokątny, 2 - jeśli Bajtuś może zbudować tylko trójkąt równoboczny,
+
+Przykład:
+
+Dla danych wejściowych:
+3 4 5
+
+poprawną odpowiedzią jest:
+1
+
+Autor zadania: Jacek Tomasiewicz.
