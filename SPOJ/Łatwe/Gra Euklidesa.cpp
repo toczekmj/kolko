@@ -14,22 +14,31 @@ int wczytajZetony(int t)
     }
 }
 
-void zacznijGre(int t)
+void graj(int a, int b)
 {
-    for(int i = 0; i < t; i++){
-        if(a[i] < b[i]){
-            b[i] -= a[i];
-        }else if(a[i] > b[i]){
-            a[i] -= b[i];
-        }else if(a[i] == b[i]){
-            break;
+    if(a == b){
+        cout<<a+b<<endl;
+    }else{
+        while(a != b){
+            if(a > b){
+                a = a-b;
+            }else{
+                b = b-a;
+            }
         }
-        cout<<a[i]<<" "<<b[i]<<endl;
+        cout<<a+b<<endl;
+    }
+}
+
+void zacznijGre(int iloscPartii)
+{
+    for(int i = 0; i < iloscPartii; i++){
+        graj(a[i] , b[i]);
     }
 }
 
 
-int main() 
+int main()
 {
     int t;
     cin>>t;
