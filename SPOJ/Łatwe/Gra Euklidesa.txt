@@ -1,0 +1,35 @@
+EUCGAME - Gra Euklidesa
+Gra Euklidesa przebiega wed³ug nastêpuj¹cych zasad:
+
+W grze bierze udzia³ dwóch graczy (A i B). Pocz¹tkowo ka¿dy z nich dysponuje pewn¹ niezerow¹ liczb¹ identycznych ¿etonów - odpowiednio a i b.
+Je¿eli jeden z graczy ma mniej ¿etonów ni¿ drugi, mo¿e wykonaæ ruch. Wykonuj¹c ruch, gracz zabiera partnerowi tyle ¿etonów, ile sam posiada. ¯etony te s¹ wy³¹czone z dalszej gry (tj. gracz wykonuj¹cy ruch ich nie przejmuje).
+Gra koñczy siê w sytuacji, gdy ¿aden z graczy nie mo¿e wykonaæ ruchu (w szczególnoœci gra mo¿e skoñczyæ siê bezpoœrednio po "rozdaniu" ¿etonów, bez jakichkolwiek ruchów).
+Znaj¹c pocz¹tkowe zasoby graczy (tj. wartoœci a i b), wyznacz ³¹czn¹ liczbê ¿etonów pozosta³ych w grze w chwili jej zakoñczenia.
+
+Wejœcie
+t	[1 <= t <= 10; liczba partii]
+a1 b1	[1 <= a1, b1 <= 1 000 000 000; pocz¹tkowe liczby ¿etonów u graczy (partia #1) ]
+a2 b2	[ jw. (partia #2) ]
+...	 
+at bt	 
+
+
+Wyjœcie
+r1 [ ³¹czna liczba ¿etonów u obu graczy po zakoñczeniu partii #1 ]
+r2 [ jw., dla partii #2 ]
+...
+rt
+
+Przyk³ad
+
+
+Wejœcie:
+3
+1 1
+2 4
+9 6
+
+Wyjœcie:
+2
+4
+6
