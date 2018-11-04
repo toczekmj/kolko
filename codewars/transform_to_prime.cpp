@@ -25,8 +25,6 @@ int main()
   int t;
   cin>>t;
   if(isPrime(t)){
-    cout<<"tak";
-  }else cout<<"nie";
-
-
+    cout<<"yes";
+  }else cout<<"no";
 }
