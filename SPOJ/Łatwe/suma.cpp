@@ -14,9 +14,9 @@ void read()
 
 void print()
 {
-  int suma = 0; //= tab[0];
-  //cout<<tab[0]<<endl;
-  for (size_t k = 0; k < i; k++) {
+  int suma = 0;
+  for (size_t k = 0; k < i; k++)
+  {
     suma += tab[k];
     cout<<suma<<endl;
   }
