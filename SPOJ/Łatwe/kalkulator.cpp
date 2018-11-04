@@ -16,7 +16,7 @@ void read()
   string divd = "/";
   string mult = "*";
   string mod = "%";
-  
+
   while(cin>>a>>b>>c)
   {
     if(a == plus)
