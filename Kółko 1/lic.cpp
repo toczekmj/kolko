@@ -8,4 +8,3 @@ int main()
     cin>>k>>r;
     cout<<k+r<<" "<<k*2 + r*4;
 }
-
