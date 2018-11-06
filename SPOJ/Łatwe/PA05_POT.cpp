@@ -1,37 +1,55 @@
 #include "iostream"
-#include "math.h"
+#include "string"
+#include "vector"
 using namespace std;
+const int MAX = 1000005;
+int tab[MAX];
 
-const int MAX = 10;
-int tab[MAX][2];
-int res[MAX];
-
-void read(int d)
+int pow(int t)
 {
-  for(int i = 0; i < d; i++)
+  int s = 1;
+  while (t > 0) {
+    s *= t;
+    t--;
+  }
+  return s;
+}
+
+void tostr(int i)
+{
+  int n = pow(tab[i]);
+  string l = to_string(n);
+
+  if(stoi(l) > 9)
   {
-    for(int j = 0; j < 2; j++)
-    {
-      cin>>tab[i][j];
-    }
+    cout<<l[0]<<" "<<l[1]<<endl;
+  }
+  else
+  {
+    cout<<"0 "<<l[0]<<endl;
+  }
+
+}
+
+void write(int t)
+{
+  for(int i = 0; i < t; i++)
+  {
+    tostr(i);
   }
 }
 
-void power(int d)
+void read(int t)
 {
-
-  for(int i = 0; i < d; i++)
+  for(int i = 0; i < t; i++)
   {
-    res[i] = pow(tab[i][0] , tab[i][1]);
+    cin>>tab[i];
   }
 }
 
 int main()
 {
-  int d;
-  cin>>d;
-  read(d);
-  power(d);
-  for(int i = 0; i < d; i++)
-    cout<<res[i] % 10<<endl;
+  int t; cin>>t;
+  read(t);
+  write(t);
 }
