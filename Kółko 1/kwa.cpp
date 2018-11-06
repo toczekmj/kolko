@@ -15,5 +15,6 @@ int main()
     int n;
     cin>>n;
     draw(n);
+    system("pause >nul");
 }
 
