@@ -1,3 +1,3 @@
-# najbardziej niewydajny i zle napisany kod (ale działa, więc nie ruszaj)
+# najbardziej niewydajny i zle napisany kod
 
 Nie radzę korzystać
