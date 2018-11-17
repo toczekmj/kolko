@@ -1,0 +1,37 @@
+Podczas obozu informatycznego uczniowie, w przerwach pomiędzy zadankami, czasami lubią podręczyć innych.
+Znudzony życiem Krystian (ciągle tylko całki, pochodne, różniczki, . . . ) postanowił zaszaleć i ukradł klucz
+koleżankom z pokoju obok.
+Marysia natychmiast rozpoczęła śledztwo w celu odkrycia obecnego położenia klucza. Wie ona jak działa
+mechanizm przekazywania go sobie pomiędzy innymi uczniami. Mianowicie, każdy kto wychodzi z pokoju, w
+którym znajduje się klucz, zabiera go ze sobą i pozostawia w pokoju do którego wchodzi.
+Marysia nie ma zbyt dużo czasu (zadania z olimpiady same się nie zrobią), więc poprosiła Cię o pomoc.
+Powiedz jej, w którym pokoju znajduje się klucz.
+Wejście
+Pierwszy wiersz standardowego wejścia zawiera trzy liczby całkowite n, m, p (1 ¬ n, m, p ¬ 400 000), oznaczające
+liczbę pokoi w hotelu, liczbę uczniów na obozie oraz liczbę przemieszczeń się uczniów.
+Drugi wiersz opisuje, w których pokojach znajdowali się początkowo uczniowie. Opis zawiera m liczb
+całkowitych u1, u2, . . . , um (1 ¬ ui ¬ n), gdzie ui oznacza numer pokoju, w którym znajował się początkowo
+i-ty uczeń.
+Kolejnych p wierszy opisuje przemieszczanie się uczniów. Każdy wiersz składa się z dwóch liczb ai oraz bi
+,
+oznaczających że uczeń ai przeszedł do pokoju bi
+.
+Zakładamy, że w testach wartych około 40% punktów zachodzi dodatkowy warunek n, m, p ¬ 1 000.
+Wyjście
+W pierwszym i jedynym wierszu standardowego wyjścia Twój program powinien wypisać jedną liczbę całkowitą,
+równą numerowi pokoju, w którym aktualnie znajduje się klucz.
+Zakładamy, że początkowo klucz znajdował się w pokoju Krystiana, a Krystian jest uczniem o numerze 1.
+Przykład
+Dla danych wejściowych:
+7 10 6
+3 5 2 1 6 4 1 3 5 5
+2 1
+10 2
+8 2
+3 7
+4 6
+5 6
+poprawnym wynikiem jest:
+7
+Wyjaśnienie do przykładu: Klucz znajduje się początkowo w pokoju numer 3. Uczeń 8 przeniesie klucz do
+pokoju numer 2, a następnie uczeń 3 przeniesie ten klucz do pokoju numer 7.
