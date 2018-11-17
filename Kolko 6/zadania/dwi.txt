@@ -1,0 +1,25 @@
+Dwie wieże
+Limit pamięci: 32 MB
+Mały Bajtek otrzymał od dziadka zestaw klocków. Każdy klocek ma pewną wysokość. Bajtek stawia klocki na sobie i w ten spobób powstaje wieżyczka. Bajtek wybudował dwie wieżyczki, wykorzystując wszystkie swoje klocki.
+
+Zastanawia się teraz, ile minimalnie klocków musi zdjąć z wieżyczek, aby obie miały równą wysokość. Bajtek może zdejmować klocki tylko z szczytów wieżyczek oraz nie może dokładać nowych klocków. W szczególności, Bajek może zdjąć wszystkie klocki ze wieżyczek - wtedy będą miały wysokości równe 0 i będą równe.
+
+Wejście
+Pierwszy wiersz wejścia zawiera dwie liczby całkowite n,m (1<= n,m <= 10^9), oznaczające odpowiednio liczbę klocków, z których zbudowana jest pierwsza oraz druga wieżyczka.
+
+Drugi wiersz zawiera  liczb całkowitych a1,a2...aN (1 <= ai <= 10^9), gdzie  oznacza wysokość -tego klocka w pierwszej wieżyczce (to klocek znajdujący się na samym dole,  to klocek znajdujący się na wierzchołku pierwszej wieżyczki).
+
+Trzeci wiersz zawiera  liczb całkowitych b1,b2...bN (1<= bi <= 10^9), gdzie  oznacza wysokość -tego klocka w drugiej wieżyczce.
+
+Wyjście
+Pierwszy i jedyny wiersz wyjścia powinien zawierać jedną liczbę całkowitą, równą minimalnej liczbie klocków, jakie Bajtek powinien zdjąć z wieżyczek, aby były tej samej wysokości.
+
+Przykład
+Dla danych wejściowych:
+
+4 3
+2 2 1 2
+1 3 2
+poprawną odpowiedzią jest:
+
+3

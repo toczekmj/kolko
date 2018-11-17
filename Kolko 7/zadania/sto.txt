@@ -1,0 +1,18 @@
+Stopki
+Limit pamięci: 32 MB
+Kozik z Adrianem grają w stopki. Gra polega na tym, że chłopcy ustawiają się w pewnej odległości od siebie, a następnie naprzemiennie poruszają się po linii prostej. Ruch polega na przejściu o długość własnej stopy do przodu. Wygrywa ten, który nastąpi na stopę przeciwnika.
+
+Znając odległość chłopców od siebie oraz długości stóp, stwierdź, kto wygra pojedynek. Zakładamy, że Kozik zaczyna, ponieważ jest starszy.
+
+Wejście
+Pierwszy i jedyny wiersz standardowego wejścia zawiera trzy liczby całkowite   x,k,a(1<= k,a <= 10^9), oznaczające odpowiednio odległość chłopców od siebie, długość stopy Kozika oraz Adriana.
+Wyjście
+Pierwszy wiersz standardowego wyjścia powinien zawierać jedną liczbę całkowitą. Jeśli wygra Kozik, to powinniśmy wypisać , jeśli Adrian, to .
+
+Przykład
+Dla danych wejściowych:
+
+6 1 2
+poprawną odpowiedzią jest:
+
+1
